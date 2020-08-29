@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simon game</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./external/game.png" type="image/x-icon">
+</head>
+
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed">
+    <a class="navbar-brand" href="./welcome/welcome.html">Simon Game</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="https://en.wikipedia.org/wiki/Simon_(game)">Intro <span
+              class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/Users/donoghli/web_development/DonoghL/index.html">Donogh Li</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="area">
+    <ul class="circles">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+
+      <h1 class="original">Press A Key to Start</h1>
+      <div class="container">
+        <div class="rw">
+          <div type="button" id="green" class="btnn g">
+          </div>
+          <div type="button" id="red" class="btnn r">
+          </div>
+        </div>
+
+        <div class="rw">
+          <div type="button" id="yellow" class="btnn y">
+          </div>
+          <div type="button" id="blue" class="btnn b">
+          </div>
+        </div>
+      </div>
+    </ul>
+
+    <div class="card" style="width: 18rem;">
+      <div class="card-header">
+        Top Rank
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item1" type="none">1. </li>
+        <li class="list-group-item2" type="none">2. </li>
+        <li class="list-group-item3" type="none">3. </li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
